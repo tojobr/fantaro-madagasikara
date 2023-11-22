@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NextButton from './components/buttons/NextButton';
+import Cards from './components/cards/Cards';
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
           Learn React
         </a>
 
-				
+
+				<Cards items={['test1', 'test2', 'test3', 'test4']} />
+				<NextButton />				
       </header>
-			<NextButton />
     </div>
   );
 }

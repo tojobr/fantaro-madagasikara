@@ -1,3 +1,4 @@
+import Icon from '../icons/Icon';
 import Button from './Button';
 
 export default function NextButton({}) {
@@ -10,7 +11,9 @@ export default function NextButton({}) {
 			<Button
 				label='Next'
 				onClick={handleClick}
+				icon={<Icon name='next' color='white' />}
 			/>
+			toto
 		</>
 		
 	)

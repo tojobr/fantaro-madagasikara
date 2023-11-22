@@ -1,0 +1,16 @@
+.card {
+	border: 2px solid darkgreen;
+	border-radius: 8px;
+	min-width: 150px;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+
+.card:hover, .card:active, .card:active:hover {
+	background-color: azure;
+	color: red;
+}
